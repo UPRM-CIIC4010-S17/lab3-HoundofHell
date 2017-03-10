@@ -6,6 +6,10 @@ public class Lab3Exercises {
 		rafaelGonzalez.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		rafaelGonzalez.setLocation(600, 275);
 		rafaelGonzalez.setSize(200, 200);
+		
+        MyPanelClass myPanel = new MyPanelClass();
+        rafaelGonzalez.getContentPane().add(myPanel);
+        
 		rafaelGonzalez.setVisible(true);
 	}
 }
